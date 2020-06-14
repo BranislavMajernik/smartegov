@@ -7,11 +7,34 @@
   pointer-events: none;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.jumbotron {
+  background-color: #3377AA;
+	background-image: url('/public/banner.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
 
 .App-header {
   background-color: #282c34;
@@ -21,7 +44,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;;
 }
 
 .App-link {
@@ -36,3 +59,4 @@
     transform: rotate(360deg);
   }
 }
+
