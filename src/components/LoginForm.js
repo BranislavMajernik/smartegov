@@ -3,7 +3,7 @@ import {Button, Card, CardImg, FormText, CardTitle, CardText, Row, Col,  InputGr
 import { 	withRouter } from 'react-router-dom';
 import axios from 'axios';
 import {Animated} from "react-animated-css";
-import midimage from './frame.png'
+import midimage from './frame1.png'
 
 class LoginForm extends Component{
   constructor(props) {
@@ -98,7 +98,7 @@ class LoginForm extends Component{
       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
         <Card body outline color="success" width="18rem">
         <form onSubmit={this.onSubmit1.bind(this)}>   
-          <CardTitle><h2>Identifikujte sa s mobile ID</h2></CardTitle>
+          <CardTitle><h2>Identifikujte sa s mobileID</h2></CardTitle>
           <img src={midimage} alt="Card image SQ" />
           <CardText>
             <FormText>Počkajte si na prepojenie s telefónom. Po úspešnom zaregistrovaní zadajte overovací kód</FormText>

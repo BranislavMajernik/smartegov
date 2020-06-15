@@ -22,7 +22,7 @@ return(
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="29/3/2020 - "
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaBriefcase />}
   >
@@ -36,7 +36,7 @@ return(
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
+    date="18/3/2020-23/3/2020"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaArchive />}
   >
@@ -48,7 +48,7 @@ return(
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
+    date="23/3/2020- 25/3/2020"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<FaEnvelope />}
   >
@@ -60,7 +60,7 @@ return(
     </VerticalTimelineElement>  
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
+    date="17/3/2020-18/3/2020"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<FaEnvelope />}
   >
@@ -72,7 +72,7 @@ return(
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2013"
+    date="17/3/2020-22/3/2020"
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon={<FaArchive />}
   >

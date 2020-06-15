@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Smart eGovernment
 
-## Available Scripts
+Smart eGovernment je definovaný ako inteligentná elektronická forma výkonu verejnej správy prostredníctvom informačno-komunikačných technológií. Smart eGovernment je maximálne využitie prostriedkov a nástrojov informačných technológií zo strany štátu tak, aby občan nemusel dodávať informácie, ktoré už štát má.
+Pomocou Smart Contracts, auditovaného transparetného inteligentného konania, už nie je potrebné zisťovať ako má občan postupovať. Smart Contracts garantujú bezpečnú automatizáciu konania bez prieťahov.
+Poskytuje tak skvalitnenie verejných služieb pre občanov, podnikateľov a celú spoločnosť.
 
-In the project directory, you can run:
+### Smart contract digitálna štátna a verejná správa 
+Automatizované digitálne konania občan <-> štátna a verejná správa na základe podnetu účastníka konania cez digitálne kanály, portál, mobilná aplikácia cez mobileID.
+Využíva technológiu smart contracts v blockchain, automatizované, účastníkmi konania-kontraktu plne auditovateľné, zabezpečené voči fraudu a neoprávnenému pozmeňovaniu.
+Eliminuje prieťahy v konaní, automaticky koná na základe pravidiel a zákonnej lehoty, archivuje a zaznamenáva stav.
+Využíva technológiu cloudu, platba len za použitie, IaaS, PaaS.
 
-### `yarn start`
+Zvyšuje transparentnosť konania, spokojnosť občana, automatizáciou procesu zeefektívňuje štátnu správu, šetrí náklady na duplikované systémy v agendách jednotlivých účastníkov cez zdielaný informačný ledger. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Pohľad na aplikačný frontend
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Prihlasovacia obrazovka
+![Login obrazovka](public/screenshot_login.png)
+* Príklad zobrazenia konaní identifikovaného účastníka
+![Login obrazovka](public/screenshot_konania.png)
+* Príklad rozbehnutého stavebného konania identifikovaného účastníka
+![Login obrazovka](public/screenshot_stkonanie.png)
 
-### `yarn test`
+###  Dizajn riešenia Smart eGov
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Operátor blokchainu vytvorí prostredníctvom dedikovanej konzoly Oracle cloud blockchain platform a Oracle Kubernetes service. Vytvorí zúčastnených vlastníkov konania, peerov.
+* Oracle cloud blockchain platform vytvorí Hyperledger fabric sieť spolu s Kubernetes kontajnermi NodeJS serverov. Operátor vytvorí a inicializuje Smart kontrakty na základe procesného predpisu konania.
+* Node JS servre bežiace na compute inštanciách využívajú Fabric SDK na komunikáciu s blockchain platformou.
+* React JS frontend aplikácia využíva Node JS API
+* Užívatelia a referenti úradov komunikujú a vytvárajú úkony konania prostredníctvom React JS webovej a mobilnej aplikácie.
 
-### `yarn build`
+![Aplikačný design](public/Application_design.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
