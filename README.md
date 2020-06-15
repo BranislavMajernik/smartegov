@@ -1,7 +1,7 @@
 ## Smart eGovernment
 
 Smart eGovernment je definovaný ako inteligentná elektronická forma výkonu verejnej správy prostredníctvom informačno-komunikačných technológií. Smart eGovernment je maximálne využitie prostriedkov a nástrojov informačných technológií zo strany štátu tak, aby občan nemusel dodávať informácie, ktoré už štát má.
-Pomocou Smart Contracts, auditovaného transparetného inteligentného konania, už nie je potrebné zisťovať ako má občan postupovať. Smart Contracts garantujú bezpečnú automatizáciu konania bez prieťahov.
+Pomocou Smart Contracts, auditovaného transparentného inteligentného konania, už nie je potrebné zisťovať ako má občan postupovať. Smart Contracts garantujú bezpečnú automatizáciu konania bez prieťahov.
 Poskytuje tak skvalitnenie verejných služieb pre občanov, podnikateľov a celú spoločnosť.
 
 ### Smart contract digitálna štátna a verejná správa 
@@ -17,11 +17,12 @@ Pohľad na aplikačný frontend
 * Prihlasovacia obrazovka
 ![Login obrazovka](public/screenshot_login.png)
 * Príklad zobrazenia konaní identifikovaného účastníka
-![Login obrazovka](public/screenshot_konania.png)
+![Konania obrazovka](public/screenshot_konania.png)
 * Príklad rozbehnutého stavebného konania identifikovaného účastníka
-![Login obrazovka](public/screenshot_stkonanie.png)
+![Stkonanie obrazovka](public/screenshot_stkonanie.png)
+![Stkonanie1 obrazovka](public/screenshot_stkonanie1.png)
 
-###  Dizajn riešenia Smart eGov
+###  Dizajn riešenia Smart eGovernment
 
 * Operátor blokchainu vytvorí prostredníctvom dedikovanej konzoly Oracle cloud blockchain platform a Oracle Kubernetes service. Vytvorí zúčastnených vlastníkov konania, peerov.
 * Oracle cloud blockchain platform vytvorí Hyperledger fabric sieť spolu s Kubernetes kontajnermi NodeJS serverov. Operátor vytvorí a inicializuje Smart kontrakty na základe procesného predpisu konania.
